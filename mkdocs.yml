@@ -1,0 +1,21 @@
+site_name: .NET 技术分享
+site_description: 一些 .NET 技术分享随笔
+site_author: 十月的寒流
+
+theme:
+  name: material
+  language: zh
+markdown_extensions:
+  - admonition
+  - fenced_code
+  - codehilite
+  - smarty
+  - toc:
+      permalink: True
+  - pymdownx.blocks.admonition
+  - pymdownx.blocks.details
+  - pymdownx.blocks.tab:
+      alternate_style: True
+
+plugins:
+  - search
