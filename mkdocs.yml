@@ -1,21 +1,29 @@
-site_name: .NET 技术分享
-site_description: 一些 .NET 技术分享随笔
+site_name: 十月的寒流
+site_description: 一些编程技术分享随笔
 site_author: 十月的寒流
 
 theme:
   name: material
   language: zh
 markdown_extensions:
-  - admonition
-  - fenced_code
-  - codehilite
-  - smarty
   - toc:
       permalink: True
   - pymdownx.blocks.admonition
   - pymdownx.blocks.details
   - pymdownx.blocks.tab:
       alternate_style: True
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
   - search

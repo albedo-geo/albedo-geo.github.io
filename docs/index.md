@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# 欢迎来到我的技术分享博客
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+在这里，我会分享各种技术文章，包括但不限于：
 
-## Commands
+- .NET / C# / F#
+- WPF / Avalonia UI / Win UI 3 / MAUI / ASP.NET
+- Python
+- 其他待补充
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+你也可以去[我的 Bilibili 空间](https://space.bilibili.com/600592)观看技术分享视频！
